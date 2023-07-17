@@ -8,7 +8,7 @@ package com.mycompany.cap9;
  *
  * @author Pc Elias
  */
-public abstract class Funcionario {
+public abstract class Funcionario implements Autenticavel {
     
     private String nome;
     private String cpf;
@@ -41,6 +41,8 @@ public abstract class Funcionario {
     }
     
     public abstract double getBonificacao();
+    
+    
     
     
     

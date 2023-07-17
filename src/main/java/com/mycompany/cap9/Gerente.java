@@ -8,7 +8,7 @@ package com.mycompany.cap9;
  *
  * @author Pc Elias
  */
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Autenticavel {
     
     private int senha;
     private int numeroDeFuncionariosGerenciados;
@@ -44,5 +44,6 @@ public class Gerente extends Funcionario {
     public double getBonificacao(){
         return this.getSaldo() * 0.2;
     }
+    
     
 }
